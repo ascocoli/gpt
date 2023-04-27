@@ -43,7 +43,8 @@ class Chats extends GetxController {
   }
 
   final openAI = OpenAI.instance.build(
-      token: "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",
+      token:
+          "sk-itJzVwfSIIQMAJfa9MXDT3BlbkFJeAnRXidwPpfkf84dWAoqana-itJzVwfSIIQMAJfa9MXDT3BlbkFJ",
       baseOption: HttpSetup(receiveTimeout: const Duration(seconds: 20)),
       isLog: true);
   void _onFocusChange() {
