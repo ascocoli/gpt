@@ -25,9 +25,9 @@ class ChatsWidget extends StatelessWidget {
             children: [
               ElevatedButton(
                   onPressed: () {
-                    // Get.to(Speech());
+                    Get.to(Speech());
                   },
-                  child: Text("next")),
+                  child: const Text("next")),
               ListView.builder(
                 physics: const NeverScrollableScrollPhysics(),
                 shrinkWrap: true,
